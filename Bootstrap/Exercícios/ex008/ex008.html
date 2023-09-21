@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 008</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--Bootstrap Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="ex008.js"></script>
+</head>
+<body>
+    <nav class="navbar bg-success navbar-dark navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Pesca e Cia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="menuNavBar">
+                <div class="navbar-nav">
+                    <a href="http://127.0.0.1:5500/Front-End/Bootstrap/Exerc%C3%ADcios/ex008.html#" class="nav-link">Principal</a>
+
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contato</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item">18996848666</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">67518878067</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">18370088901</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="search" class="form-control">
+                    <button type="submit" class="btn btn-outline-light">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <section id="meucarrosel" class="carousel carousel-dark silde" data-bs-ride="carousel">
+            <!--Indicadores de banner-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meucarrosel" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!--Lista de Imagens - Banners-->
+            <div class="carousel-inner">
+                
+                <!--imagem 1-->
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="https://img.freepik.com/fotos-premium/silhueta-de-um-homem-pescando-em-embarcacao-nautica-ao-por-do-sol-gerada-por-inteligencia-artificial_24640-120522.jpg" class="w-100 d-block banner">
+                    <div class="carousel-caption">
+                        <h3>FRETE GRÁTIS</h3>
+                        <p>PARA PEDIDOS ACIMA DE R$200,00</p>
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+                
+                <!--imagem 2-->
+                <div class="carousel-item">
+                    <img src="https://amazonlord.com.br/themes/amazon_lord/img/pesca-fotos-lancas.png" class="w-100 d-block banner">
+                    <div class="carousel-caption">
+                        <h3>FRETE GRÁTIS</h3>
+                        <p>PARA PEDIDOS ACIMA DE R$200,00</p>                        
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+                
+                <!--imagem 3-->
+                <div class="carousel-item">
+                    <img src="https://www.sonoticias.com.br/wp-content/uploads/2022/09/festival-de-pesca-sorriso-990x556.jpeg" class="w-100 d-block banner">
+                    <div class="carousel-caption">
+                        <h3>FRETE GRÁTIS</h3>
+                        <p>PARA PEDIDOS ACIMA DE R$200,00</p>
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrosel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrosel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+    </main>
+
+<hr>
+            <!--Paginação-->
+            <div>
+                <nav>
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item active">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">6</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+<hr>
+    <Main class="container-fluid">
+        <section class="row gap-0">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card" >
+                    <img src="https://images.tcdn.com.br/img/img_prod/706119/carretilha_marine_sports_brisa_lite_8000shil_8rol_7_5_1_lancamento_2021_5693_1_08b8dc814b13710a540886d0e527e327_20220727140334.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$250,00</h6>
+                        <h5 class="card-title">Carretilha Brisa Lite</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://multipescaserraemar.com.br/wp-content/uploads/2021/06/tnt-.png" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$300,00</h6>
+                        <h5 class="card-title">Carretilha TNT 10</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/340075/carretilha_marine_sports_caster_power_plus_400_lancamento_10577_1_20200130091523.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$230,00</h6>
+                        <h5 class="card-title"> Carretilha Caster Power Plus 400</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/340075/vara_para_carretilha_marine_sports_evolution_g3_5_6_1_68m_20_lbs_carbono_solido_evg3_c561m_11159_1_462301dbba00d661035b0e2eba739ac8.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$110,00</h6>
+                        <h5 class="card-title">Vara Evolution G3</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/1181/1181461/produto/437568972e72123c62.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$115,00</h6>
+                        <h5 class="card-title">Vara Tracker 80lb</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://static.marurifishing.com.py/upload/product/148382/vara-cybor-20lb.png" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$130,00</h6>
+                        <h5 class="card-title">Vara Cybor 40lb molinete</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://a-static.mlcdn.com.br/450x450/molinete-marine-sports-xt-4000-com-4-rolamentos/makismagazine/8130409326/618a9e18927a8d52bfc9449a8578e699.jpeg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$175,00</h6>
+                        <h5 class="card-title">Molinete XT 4000</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://images.tcdn.com.br/img/img_prod/618470/anzol_pesca_4330_marine_sports_cartelado_829_1_20190123105000.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$12,00</h6>
+                        <h5 class="card-title">Anzol 4330 Nº6 Marine Sports</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/focanape/catalog/iscas/nelson-nakamura/zig-zara/zig-zarinha-cor-103-opaca-cabeca-vermelha.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$40,00</h6>
+                        <h5 class="card-title">Isca artificial Zig Zarinha 90</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x700/1181/1181461/produto/45522721aa2cb1e083.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$40,00</h6>
+                        <h5 class="card-title">Isca artificial Inna 90</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://www.juninhopesca.com.br/produtos/original/ewg-w01-jpg-63450.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$49,00</h6>
+                        <h5 class="card-title">Garateia Gamakatsu Nº2</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 img">
+                <div class="card">
+                    <img src="https://images.tcdn.com.br/img/img_prod/641956/linha_max_force_multifilamento_0_20mm_100m_12557_2_881894c1d0ede0ea05541d4011de6834.jpg" class="" alt="">
+                    <div class="card-body">
+                        <h6>R$19,90</h6>
+                        <h5 class="card-title">Linha Multifilamento Max Force</h5>
+                        <p class="card-text"></p>
+                        <hr>
+                        <button class="btn btn-danger">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </Main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
